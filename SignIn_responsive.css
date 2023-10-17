@@ -1,0 +1,134 @@
+@media screen and (max-width: 1920px) {
+
+}
+@media screen and (max-width: 1280px) {
+
+}
+
+
+@media screen and (max-width: 800px) {
+    .container{
+        padding-top: 20px;
+        /* border: 2px solid red; */
+    }
+    .sign-container{
+        /* margin-top: 10px; */
+        overflow: hidden;
+    }
+    .email i{
+        /* margin-left: -20px; */
+        transform: translate(300px, -45px);
+    }
+    .google input{
+        background-color: transparent;
+        width: 98%;
+        height: 40px;
+        /* border: none; */
+        border: 1px solid rgb(217, 217, 217);
+        border-radius: 3px;
+        text-align: center;
+        margin-left: 1px;
+        font-size: 15px;
+    }
+    .google img{
+        width: 20px;
+        height: 20px;
+        transform: translate(75px, 29px);
+    }
+    .facebook input{
+        background-color: rgb(77, 77, 137);
+        text-align: center;
+        margin-left: 1px;
+        margin-top: 5px;
+        font-size: 15px;
+        width: 98%;
+    }
+    .facebook i{
+        transform: translate(65px, 35px);
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+
+    .container{
+        margin-left: 0px;
+        margin-right: 0px;
+        /* border: 2px solid red; */
+        padding-top: 20px;
+    }
+    .sign-container{
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        top: 0;
+        transform: translate(0%,0%);
+        width: 99%;
+    }
+    .details input{
+        background-color: rgba(210, 206, 206, 0.626);
+        width: 98%;
+        height: 40px;
+        border: none;
+        border-radius: 3px;
+        margin-top: -5px;
+        margin-bottom: 15px;
+    }
+    
+    .tick{
+        margin-top: -13px;
+    }
+    .forgot{
+        font-size: 13px;
+    }
+    .continue input{
+        background-color: #447ee2;
+        width: 99%;
+        height: 40px;
+        border: none;
+        border-radius: 3px;
+        text-align: center;
+    }
+    .lines{
+        padding-left: 10px;
+    }
+    .mid{
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 11px;
+        color: rgb(75, 74, 74);
+    }
+    .google input{
+        background-color: transparent;
+        width: 98%;
+        height: 40px;
+        /* border: none; */
+        border: 1px solid rgb(217, 217, 217);
+        border-radius: 3px;
+        text-align: center;
+        margin-left: 1px;
+        font-size: 15px;
+    }
+    .google img{
+        width: 20px;
+        height: 20px;
+        transform: translate(75px, 29px);
+    }
+    .facebook input{
+        background-color: rgb(77, 77, 137);
+        text-align: center;
+        margin-left: 1px;
+        margin-top: 5px;
+        font-size: 15px;
+        width: 98%;
+    }
+    .facebook i{
+        transform: translate(65px, 35px);
+    }
+    .email i{
+        /* margin-left: -20px; */
+        transform: translate(300px, -40px);
+    }
+    
+    
+}

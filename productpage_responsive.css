@@ -1,0 +1,395 @@
+@media screen and (max-width:2200px)   {
+    .details-div{
+        width: 65%;
+        transform: translateX(25%);
+    }
+}
+
+@media screen and (max-width: 1280px){
+    .details-div{
+        width: 100%;
+        transform: translateX(-10px);
+    }
+
+.date{
+    /* border: 2px solid orange; */
+    height: 45px;
+    border-radius: 5px;
+    background-color: rgba(209, 209, 209, 0.49);
+    padding-right: 70px;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+
+.date input{
+    font-size: 15px;
+    height: 35px;
+    width: 120px;
+    margin-left: 5px;
+  /* border: 2px solid orange; */
+    padding-right: 30px;                                 
+    border: none;
+    padding-top: 5px;
+    background-color:  rgba(209, 209, 209, 0);
+    outline: none;
+
+}
+
+
+}
+
+@media screen and (max-width: 800px) {
+    .container{
+        overflow: hidden;
+    }
+    .bed-btn button{
+        width: 30%;
+
+    }
+    header{
+        position: relative;
+    }
+    .dot,.mid,.right-icon{
+        display: none;
+    }
+    .bars{
+        position: absolute;
+        right: 0;
+        display: block;
+    }
+    .user{
+        position: absolute;
+        right: 40px;
+    }
+    .bars i{
+        font-size: 25px;
+        padding-left: 10px;
+    }
+    .left{
+        position: absolute;
+        left: 0;
+    }
+    .product-section{
+        padding: 0;
+    }
+  
+    .overview{
+        font-size: 10px;
+        border-bottom: 2px solid rgb(66, 119, 225) ;
+    
+    }
+    .list{
+        font-size: 10px;
+        margin-right: 10px;
+    }
+    .info{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .info-left{
+        width: 99%;
+    }
+    .facilities-new{
+        margin-left: 10px;
+    }
+    .facilities-name{
+        padding-bottom: 9px;
+        color: rgb(76, 78, 78);
+        font-size: 13px;
+    }
+    .facilities-icon{
+        padding-bottom: 10px;
+    }
+    .map {
+        /* width: 315px; */
+        width: 99%;
+       margin-left: 0;
+    }
+
+
+    .info-right{
+        margin-left: 0;
+        width: 100%;
+    }
+    .place-icon{
+        padding-left: 10px;
+    }
+    .available{
+        padding: 0;
+        padding-top: 20px;
+        margin-top: 0px;
+    }
+    .available{
+       
+    }   
+    .details-div{
+        display: none;
+    }
+ 
+    .bed{
+        display: flex;
+        flex-direction: column;
+    }
+    .coupon{
+        height: 300px;
+        width: 100%;
+    }
+    .king-bed{
+       margin-left: 0;
+       margin-top: 10px;
+        width: 100%;
+    }
+    .caution{
+        padding-left: 0;
+        margin-left: 0;
+        margin-right: 0;
+        position: relative;
+    }
+    .caution p{
+        width: 75%;
+        font-size: small;
+        position: absolute;
+        top: 10px;
+    }
+    footer{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    footer h6{
+        font-size: 20px;
+       
+    }
+    .final-footer{
+        background-color: rgba(209, 209, 209, 0.49);
+        height: 40px;
+    }
+    
+    .final-footer p{
+        text-align: end;
+        padding-top: 15px;
+        font-size: 10px;
+        color: rgb(77, 77, 77);
+    }
+    
+    .final-footer i{
+        margin-right: 5px;
+        color: rgb(77, 77, 77);
+    }
+     .footer-writing p{
+      font-size: 18px;
+        
+     }
+     .footer-para-two{
+        font-size: 15px;
+     }
+     
+    .table{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    
+    .my-table{
+        margin-top: 150px;
+        width: 100%;
+    }
+    
+    .my-table th,td{
+        margin-left: 0px;
+        text-align: start;
+        border-collapse: collapse;
+    }
+    
+    .my-table th{
+        color: rgba(0, 0, 0, 0.799);
+        font-size: 8px;
+    }
+    
+    
+    
+    .my-table td{
+        font-weight: lighter;
+    }
+    
+    .my-table a{
+        text-decoration: none;
+        font-size: 8px;
+        color: rgb(62, 61, 61);
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .dot,.mid,.right-icon{
+        display: none;
+    }
+    .container{
+        overflow: hidden;
+    }
+    header{
+        position: relative;
+    }
+    .left{
+      
+        position: absolute;
+        left: 0;
+    }
+    .user{
+        position: absolute;
+        right: 10px;
+        top: 5px;
+    }
+    .bars{
+        display: block;
+        position: absolute;
+        right: -20px;
+        /* border: 2px solid red; */
+    }
+    .bars i{
+        font-size: 20px;
+        /* border: 2px solid red; */
+        
+    }
+    .product-section{
+        padding: 0;
+    }
+  
+    .overview{
+        font-size: 10px;
+        border-bottom: 2px solid rgb(66, 119, 225) ;
+    
+    }
+    .list{
+        font-size: 10px;
+        margin-right: 10px;
+    }
+    .info{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .info-left{
+        width: 99%;
+    }
+    .facilities-new{
+        margin-left: 10px;
+    }
+    .facilities-name{
+        padding-bottom: 9px;
+        color: rgb(76, 78, 78);
+        font-size: 13px;
+    }
+    .facilities-icon{
+        padding-bottom: 10px;
+    }
+    .map {
+        width: 315px;
+       margin-left: 0;
+    }
+    .info-right{
+        margin-left: 0;
+        width: 100%;
+    }
+    .place-icon{
+        padding-left: 10px;
+    }
+    .available{
+        padding: 0;
+        padding-top: 20px;
+    }
+    .details-div{
+        display: none;
+    }
+    .bed{
+        display: flex;
+        flex-direction: column;
+    }
+    .coupon{
+        height: 300px;
+        width: 100%;
+    }
+    .king-bed{
+       margin-left: 0;
+       margin-top: 10px;
+        width: 100%;
+    }
+    .caution{
+        padding-left: 0;
+        margin-left: 0;
+        margin-right: 0;
+        position: relative;
+    }
+    .caution p{
+        width: 75%;
+        font-size: small;
+        position: absolute;
+        top: 10px;
+    }
+    footer{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    footer h6{
+        font-size: 20px;
+       
+    }
+    .final-footer{
+        background-color: rgba(209, 209, 209, 0.49);
+        height: 40px;
+    }
+    
+    .final-footer p{
+        text-align: end;
+        padding-top: 15px;
+        font-size: 10px;
+        color: rgb(77, 77, 77);
+    }
+    
+    .final-footer i{
+        margin-right: 5px;
+        color: rgb(77, 77, 77);
+    }
+     .footer-writing p{
+      font-size: 18px;
+        
+     }
+     .footer-para-two{
+        font-size: 15px;
+     }
+     
+    .table{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    
+    .my-table{
+        margin-top: 150px;
+    }
+    
+    .my-table th,td{
+        margin-left: 0px;
+        text-align: start;
+        border-collapse: collapse;
+    }
+    
+    .my-table th{
+        color: rgba(0, 0, 0, 0.799);
+        font-size: 8px;
+    }
+    
+    
+    
+    .my-table td{
+        font-weight: lighter;
+    }
+    
+    .my-table a{
+        text-decoration: none;
+        font-size: 8px;
+        color: rgb(62, 61, 61);
+    }
+    
+
+}

@@ -1,0 +1,749 @@
+@media screen and (max-width:2200px) and (min-width:1920px) {
+    .details-div{
+        width: 50%;
+    }
+    .banner-heading{
+        /* border: 2px solid red; */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 700px;
+        text-align: center;
+        color: white;
+    }
+    .country-images{
+        /* border: 2px solid red; */
+        width: 100%;
+    }
+    
+    .country-images-sub img{
+        width: 100%;
+        height: 300px;
+        /* border: 2px solid red; */
+        /* width: 30%; */
+    }
+    .country-images-sub {
+        width: 450px;
+        /* height: 350px; */
+    }
+    .trip-image{
+        display: flex;
+        flex-direction: column;
+        /* border: 2px solid red; */
+    }
+    .trip-image-sub{
+        position: relative;
+    }
+    .trip-image-sub img{
+        width: 100%;
+        height: 550px;
+        /* border: 2px solid red; */
+    }
+    .hotel-images-sub{
+        /* border: 2px solid red; */
+    }
+    .hotel-images-sub img{
+        width: 450px;
+    }
+    .caption-one{
+        /* border: 2px solid red;  */
+        position: absolute;
+       bottom:  130px;
+        margin-left: 20px;
+        font-size: 35px;
+        font-weight: 600;
+        color: white;
+        /* width: 350px; */
+        width: 430px;
+        /* border: 2px solid red; */
+    }
+    .caption-two{
+        /* border: 2px solid red;  */
+        /* border: 2px solid red; */
+        position: absolute;
+        bottom: 30px;
+        font-size: 28px;
+        color: rgb(255, 255, 255);
+        width: 600px;
+        margin-left: 20px;
+    
+    }
+}
+
+@media screen and (max-width:1280px) and (min-width:800px){
+
+    .banner-heading{
+        /* border: 2px solid red; */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,10%);
+        width: 700px;
+        text-align: center;
+        color: white;
+    }
+    .details-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: solid rebeccapurple; */
+        background-color: rgb(255, 255, 255);
+        transform: translate(-50%,-50%);
+        position: absolute;
+        left: 50%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 80%;
+        border-radius: 5px;
+        z-index: 3;
+        border: white;
+       
+    }
+  
+    
+    .where input{
+        font-size: 13px;
+        height: 35px;
+        width: 120px;
+        margin-left: 5px;
+      /* border: 2px solid orange; */
+        padding-right: 30px;                                 
+        border: none;
+        padding-top: 5px;
+        background-color:  rgba(209, 209, 209, 0);
+        outline: none;
+    
+    }
+    
+    
+    .search button{
+        font-size: 15px;
+        height: 45px;
+        width: 90px;
+        padding: 0;                                               
+        border: none;
+        border-radius: 5px;
+        background-color:  rgb(71, 129, 230);
+    }
+  
+    .country-images{
+        /* border: 2px solid red; */
+        width: 100%;
+    }
+    
+    .country-images-sub{
+        /* border: 2px solid red; */
+        /* width: 30%; */
+    }
+    .country-images-sub img{
+        width: 250px;
+    }
+    .trip-image{
+        display: flex;
+        flex-direction: column;
+        /* border: 2px solid red; */
+    }
+    .trip-image-sub{
+        position: relative;
+    }
+    .trip-image-sub img{
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+    .hotel-images-sub img{
+        width: 250px;
+    }
+   
+}
+@media screen and (max-width:800px) and (min-width:400px){
+  
+    .container{
+        margin-left: 0;
+        margin-right: 0;
+        overflow: hidden;
+    }
+    .mid{
+        display: none;
+    }
+
+    .banner-heading{
+        /* border: 2px solid red; */
+        width: 500px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,10%);
+    }
+    .where-tab{
+        display: none;
+    }
+    .search button{
+        width: 100px;
+        margin-left: 10px;
+    }
+    .para{
+        margin: 0;
+        padding-top: 15px;
+        width: 600px;
+        line-height: 25px;
+        color: rgb(62, 61, 61);
+    }
+    .details-div{
+        width: 50%;
+    }
+    .country-images{
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space; */
+        padding-left: 10px;
+        /* border: 2px solid red; */
+        width: 98%;
+    }
+    
+    .country-images-sub img{
+        /* width: 100%; */
+        height: 220px;
+        border-radius: 8px;
+        display: flex;
+        flex-wrap: wrap;
+        /* border: 2px solid red;  */
+    }
+    .hotel-images-sub img{
+        /* width: 100%; */
+        height: 220px;
+        border-radius: 8px;
+        display: flex;
+        flex-wrap: wrap;
+        /* border: 2px solid red;  */
+    }
+    .country-images-sub img{
+        /* border: 2px solid red;  */
+        /* width: 100%; */
+        width: 100%;
+    }
+    .country-images-sub{
+        width: 330px;
+        /* border: 2px solid red; */
+        margin-bottom: 30px;
+        margin-right: 20px;
+    }
+    .hotel-images-sub img{
+        /* border: 2px solid red;  */
+        /* width: 100%; */
+        width: 100%;
+    }
+    .hotel-images-sub{
+        width: 330px;
+        /* border: 2px solid red; */
+        margin-bottom: 30px;
+        margin-right: 20px;
+    }
+  
+   
+    .next-trip{
+        padding-top: 0px;
+        margin-top: -60px;
+    }
+    .trip-image{
+        margin-top: 20px;
+        /* border: 2px solid red;  */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .trip-image-sub img{
+        width: 100%;
+        
+    }
+    .trip-image-sub{
+        /* margin-top: -120px; */
+        /* border: 2px solid red; */
+        height: 330px;
+    }
+
+    .trip-image-sub p{
+        position: relative;
+    }
+.caption-one{
+    /* border: 2px solid red;  */
+    position: absolute;
+   bottom:  160px;
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    /* width: 350px; */
+    width: 430px;
+    /* border: 2px solid red; */
+}
+.caption-two{
+    /* border: 2px solid red;  */
+    /* border: 2px solid red; */
+    position: absolute;
+    bottom: 170px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    width: 400px;
+    margin-left: 20px;
+
+}
+    .app p{
+        width: 450px;
+    }
+
+    footer{
+        margin-left: 0px;
+        margin-right: 0px;
+        /* overflow: hidden; */
+    
+    }
+    footer h6{
+         /* border: 2px solid red; */
+        font-size: 20px;
+       
+    }
+    .final-footer{
+        background-color: rgba(209, 209, 209, 0.49);
+        height: 40px;
+    }
+    
+    .final-footer p{
+        text-align: end;
+        /* margin-right: 200px; */
+        padding-top: 15px;
+        font-size: 10px;
+        color: rgb(77, 77, 77);
+    }
+    
+    .final-footer i{
+        margin-right: 5px;
+        color: rgb(77, 77, 77);
+    }
+     .footer-writing p{
+      font-size: 18px;
+        
+     }
+     .footer-para-two{
+        /* width: 50%; */
+        font-size: 15px;
+     }
+     .footer-icon{
+        
+        /* display: none; */
+     }
+     .table{
+        /* position: relative; */
+        /* border: 2px solid red; */
+        /* margin:0; */
+    }
+    .table{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        /* margin-left: 0; */
+        /* transform: translateX(-20px); */
+    }
+    
+    .my-table{
+        width: 100%;
+        margin-top: 150px;
+        margin-left: 0;
+        /* border: 2px solid red; */
+        
+    }
+    
+    .my-table th,td{
+        margin-left: 0px;
+        
+        text-align: start;
+        border-collapse: collapse;
+        /* padding: 5px 15px; */
+        /* font-family: Arial, Helvetica, sans-serif; */
+       
+    }
+    
+    .my-table th{
+        /* border: 2px solid red; */
+        /* padding-bottom: 10px; */
+        color: rgba(0, 0, 0, 0.799);
+        /* font-weight: 600; */
+        font-size: 8px;
+    }
+    
+    
+    
+    .my-table td{
+        font-weight: lighter;
+        
+        /* color: rgb(31, 30, 30); */
+    }
+    
+    .my-table a{
+        text-decoration: none;
+        /* color: gray; */
+        font-size: 8px;
+        color: rgb(62, 61, 61);
+        /* margin-left: 5px; */
+    }
+}
+
+
+@media screen and (max-width: 400px){
+    
+    .container{
+        margin-left: 0;
+        margin-right: 0;
+        /* border: 2px solid red; */
+    }
+   .left{
+    /* border: 2px solid red;  */
+    padding-top: 15px;
+   }
+    .bars
+    {
+        /* border: 2px solid red;  */
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 30px;
+    }
+    .right{
+        /* border: 2px solid red;  */
+        display: none;
+    }
+    .mid{
+        /* border: 2px solid red;  */
+        display: none;
+    }
+    .banner-heading{
+        /* border: 2px solid red; */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,30%);
+        width: 300px;
+        text-align: center;
+        color: white;
+    }
+    .banner-heading h1{
+        /* border: 2px solid red;  */
+        font-size: 22px;
+        /* width: 30%; */
+    }
+    .banner-heading p{
+        /* width: 70%; */
+        font-size: 10px;
+        line-height: 20px;
+        transform: translateX(20%);
+        /* border: 2px solid red; */
+        width: 70%;
+    }
+    .caution-writing i{
+        transform: translateY(30px);
+        padding-left: 10px;
+       
+    }
+    .details{
+        display: none;
+    }
+    .para{
+        /* border: 2px solid red;  */
+        width: 90%;
+    }
+    .country-images,.trip-image {
+        /* border: 2px solid red;  */
+        display: flex;
+        flex-direction: column;
+    }
+    .country-images-sub{
+        /* border: 2px solid red;  */
+        margin-bottom: 30px;
+        width: 330px;
+
+    }
+    .hotel-images-sub{
+        margin-bottom: 30px;
+        width: 330px;
+    }
+
+     .country-images-one,.country-images-two{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        /* position: relative; */
+        
+    }
+    .country-images-sub,.hotel-images-sub img{
+        /* width: 100%; */
+        height: 220px;
+        border-radius: 8px;
+        /* border: 2px solid red;  */
+    }
+    .country-images-sub img{
+        /* border: 2px solid yellow; */
+        width: 100%;
+    }
+    .hotel-images-sub img{
+        /* border: 2px solid yellow; */
+        width: 100%;
+    }
+    .trip-image{
+        /* border: 2px solid red;  */
+        display: flex;
+        flex-direction: column;
+    }
+    .trip-image-sub img{
+        /* border: 2px solid red;  */
+        width: 100%;
+    }
+    .trip-image-sub{
+        /* border: 2px solid red; */
+        height: 300px;
+        /* border: 2px solid red;  */
+        /* margin-bottom: 30px; */
+    }
+    .trip-image-sub p{
+        /* border: 2px solid red;  */
+        position: relative;
+    }
+    .caption-one{
+        /* border: 2px solid red;  */
+        position: absolute;
+       bottom:  140px;
+        margin-left: 20px;
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        /* width: 350px; */
+        width: 270px;
+        /* border: 2px solid red; */
+    }
+    .caption-two{
+        /* border: 2px solid red;  */
+        /* border: 2px solid red; */
+        position: absolute;
+        bottom: 140px;
+        font-size: 15px;
+        color: white;
+        width: 270px;
+        margin-left: 20px;
+  
+    }
+    .app p{
+        /* border: 2px solid red;  */
+        width: 250px;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        position: absolute;
+        left: 50px;
+        top: 50px;
+    }
+    .caution{
+        /* border: 2px solid red;  */
+        /* width: 100%; */
+        padding-left: 0;
+        margin-left: 0;
+        margin-right: 0;
+        /* overflow: hidden; */
+        /* border: 2px solid red; */
+        position: relative;
+    }
+    .caution p{
+        width: 75%;
+        /* transform: translateX(10px); */
+        /* border: 2px solid red; */
+        font-size: small;
+        position: absolute;
+        top: 10px;
+        /* margin-right: 10px; */
+        /* padding-right: 10px; */
+    }
+    footer{
+    margin-left: 0px;
+    margin-right: 0px;
+    /* overflow: hidden; */
+
+}
+footer h6{
+     /* border: 2px solid red; */
+    font-size: 20px;
+   
+}
+.final-footer{
+    background-color: rgba(209, 209, 209, 0.49);
+    height: 40px;
+}
+
+.final-footer p{
+    text-align: end;
+    /* margin-right: 200px; */
+    padding-top: 15px;
+    font-size: 10px;
+    color: rgb(77, 77, 77);
+}
+
+.final-footer i{
+    margin-right: 5px;
+    color: rgb(77, 77, 77);
+}
+ .footer-writing p{
+  font-size: 18px;
+    
+ }
+ .footer-para-two{
+    /* width: 50%; */
+    font-size: 15px;
+ }
+ .footer-icon{
+    
+    /* display: none; */
+ }
+ .table{
+    /* position: relative; */
+    /* border: 2px solid red; */
+    /* margin-left: 0; */
+}
+.table{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    /* margin-left: 0; */
+    /* transform: translateX(-20px); */
+}
+
+.my-table{
+    width: 100%;
+    margin-top: 150px;
+}
+
+.my-table th,td{
+    margin-left: 0px;
+
+    text-align: start;
+    border-collapse: collapse;
+    /* padding: 5px 15px; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+   
+}
+
+.my-table th{
+    /* border: 2px solid red; */
+    /* padding-bottom: 10px; */
+    color: rgba(0, 0, 0, 0.799);
+    /* font-weight: 600; */
+    font-size: 8px;
+}
+
+
+
+.my-table td{
+    font-weight: lighter;
+    
+    /* color: rgb(31, 30, 30); */
+}
+
+.my-table a{
+    text-decoration: none;
+    /* color: gray; */
+    font-size: 8px;
+    color: rgb(62, 61, 61);
+    /* margin-left: 5px; */
+}
+footer{
+    margin-left: 0px;
+    margin-right: 0px;
+    /* overflow: hidden; */
+
+}
+footer h6{
+     /* border: 2px solid red; */
+    font-size: 20px;
+   
+}
+.final-footer{
+    background-color: rgba(209, 209, 209, 0.49);
+    height: 40px;
+}
+
+.final-footer p{
+    text-align: end;
+    /* margin-right: 200px; */
+    padding-top: 15px;
+    font-size: 10px;
+    color: rgb(77, 77, 77);
+}
+
+.final-footer i{
+    margin-right: 5px;
+    color: rgb(77, 77, 77);
+}
+ .footer-writing p{
+  font-size: 18px;
+    
+ }
+ .footer-para-two{
+    /* width: 50%; */
+    font-size: 15px;
+ }
+ .footer-icon{
+    
+    /* display: none; */
+ }
+ .table{
+    /* position: relative; */
+    /* border: 2px solid red; */
+    /* margin-left: 0; */
+}
+.table{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    /* margin-left: 0; */
+    /* transform: translateX(-20px); */
+}
+
+.my-table{
+    /* width: 70%; */
+    margin-top: 150px;
+  
+    
+}
+
+.my-table th,td{
+    margin-left: 0px;
+
+    text-align: start;
+    border-collapse: collapse;
+    /* padding: 5px 15px; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+   
+}
+
+.my-table th{
+    /* border: 2px solid red; */
+    /* padding-bottom: 10px; */
+    color: rgba(0, 0, 0, 0.799);
+    /* font-weight: 600; */
+    font-size: 8px;
+}
+
+
+
+.my-table td{
+    font-weight: lighter;
+    
+    /* color: rgb(31, 30, 30); */
+}
+
+.my-table a{
+    text-decoration: none;
+    /* color: gray; */
+    font-size: 8px;
+    color: rgb(62, 61, 61);
+    /* margin-left: 5px; */
+}
+
+}

@@ -1,0 +1,220 @@
+body{
+    font-family: 'Arimo', sans-serif;
+    background-color: rgb(248, 248, 248);
+    /* border: 2px solid red; */
+}
+.tick a{
+    color: #000;
+}
+.container{
+    margin-left: 100px;
+    margin-right: 100px;
+    /* border: 2px solid red; */
+}
+
+.sign-container{
+    margin-top: 70px;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* padding: 50px; */
+}
+.Sign-div h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.left{
+    display: flex;
+    /* border: 2px solid red; */
+    width: 15%;
+    margin-left: 0px;
+    
+}
+.icon{
+    display: flex;
+    align-items: center;
+    /* border: 2px solid red; */
+    width: 40px;
+}
+
+.icon i{
+   transform: rotate(-45deg);
+}
+
+.cmp-name p{
+    /* border: 2px solid red; */
+    width: 200px;
+    font-weight: 500;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    word-spacing: -2px;
+    margin-left: 5px;
+}
+
+.sign-container{
+    /* border: 2px solid red; */
+    /* text-align: center; */
+}
+
+.email p{
+    /* border: 2px solid red; */
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.details{
+    /* border: 2px solid red; */
+    margin-top: 50px;
+}
+.details input{
+    background-color: rgba(210, 206, 206, 0.626);
+    width: 350px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    margin-top: -5px;
+    margin-bottom: 15px;
+}
+
+.email i{
+    /* margin-left: -20px; */
+    transform: translateX(-35px);
+}
+
+.signed{
+    display: flex;
+}
+
+.box{
+    border: 1px solid rgb(187, 185, 185);
+    width: 18px;
+    height: 18px;
+    border-radius: 5px;
+}
+
+.tick{
+    margin-left: 10px;
+    font-weight: lighter;
+    
+    font-size: 13px;
+    margin-top: -10px;
+}
+.tick a{
+    color: rgb(81, 79, 79);
+}
+
+.forgot{
+    /* border:2px solid red; */
+    margin-left: 95px;
+    margin-top: -15px;
+    font-size: 15px;
+    font-weight: 300;
+   
+}
+.forgot a{
+    color:  #447ee2;
+}
+.continue{
+    margin-top: 15px;
+}
+
+.continue input{
+    background-color: #447ee2;
+    width: 350px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.continue input::placeholder{
+    color: white;
+}
+
+.lines{
+    display: flex;
+    
+}
+
+.start, .end{
+    margin-top: 20px;
+    width: 85px;
+    height: 0;
+    border: 1px solid rgb(207, 205, 205);
+}
+
+.mid{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 13px;
+    color: rgb(75, 74, 74);
+}
+
+.google{
+    margin-top: 15px;
+}
+
+.google input{
+    background-color: transparent;
+    width: 350px;
+    height: 40px;
+    /* border: none; */
+    border: 1px solid rgb(217, 217, 217);
+    border-radius: 3px;
+    text-align: center;
+    margin-left: -25px;
+    font-size: 15px;
+}
+.google input::placeholder{
+    color: rgb(73, 73, 73);
+    
+}
+
+.google img{
+    width: 20px;
+    height: 20px;
+    /* transform: translateX(110px);
+    transform: translateY(5px); */
+    transform: translate(75px,5px);
+}
+
+a{
+    text-decoration: none;
+}
+
+.facebook input{
+    background-color: rgb(77, 77, 137);
+    text-align: center;
+    margin-left: -25px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.facebook input::placeholder{
+    color: white;
+}
+
+.facebook i{
+    transform: translateX(65px);
+}
+.account {
+    margin-top: 40px;
+    font-size: 15px;
+    /* text-align: center; */
+    margin-left: 50px;
+    color: black;
+}
+
+.register{
+    transform: translate(165px,-33px);
+}
+.account p{
+    color: rgb(88, 87, 87);
+}
+.register p{
+    color: #447ee2;
+}
+
